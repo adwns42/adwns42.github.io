@@ -5,9 +5,11 @@ description: > # this means to ignore newlines until "baseurl:"
   A backend web developer in training shares what he's learned along the way.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+permalink: /:categories/:title
+
 twitter_username: arjund42
 github_username:  adwns42
-permalink: /:categories/:title
 
 # Build settings
 markdown: kramdown
+exclude: ['Gemfile', 'Gemfile.lock']
